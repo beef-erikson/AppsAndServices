@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter01", "Chapter01", "{00A128E6-7F8E-4E04-B5FC-6461E39DF2F6}"
+	ProjectSection(SolutionItems) = preProject
+		docs\articles\toc.yml = docs\articles\toc.yml
+		docs\articles\intro.md = docs\articles\intro.md
+		docs\index.md = docs\index.md
+		docs\.gitignore = docs\.gitignore
+		docs\toc.yml = docs\toc.yml
+		docs\docfx.json = docs\docfx.json
+		docs\api\index.md = docs\api\index.md
+		docs\api\.gitignore = docs\api\.gitignore
+		docs\api\toc.yml = docs\api\toc.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzing", "CodeAnalyzing\CodeAnalyzing.csproj", "{E3986DC0-A535-4A46-AAB2-141CF2CFB10E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3986DC0-A535-4A46-AAB2-141CF2CFB10E} = {00A128E6-7F8E-4E04-B5FC-6461E39DF2F6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3986DC0-A535-4A46-AAB2-141CF2CFB10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3986DC0-A535-4A46-AAB2-141CF2CFB10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3986DC0-A535-4A46-AAB2-141CF2CFB10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3986DC0-A535-4A46-AAB2-141CF2CFB10E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
